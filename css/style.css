@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-box {
+  width: 100%;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.TopBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SearchBox {
+  width: 635px;
+  margin: 3px 0 4px;
+}
+.SearchBox > input {
+  width: 100%;
+  min-height: 36px;
+  border-radius: 20px;
+  background-color: #feeed3;
+}
+.Nav-Bar {
+  display: flex;
+  align-items: center;
+}
+
+.Nav-Bar > ul {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+ul > li {
+  padding: 10px 15px;
+}
+
+.BottomBox {
+  background: #fdf6f4;
+}
+
+nav > ul {
+  padding: 0;
+  margin-left: 0;
+}
+.covid{
+  text-align: center;
+  background-color: blue;
+  padding: 2px;
+  color: wheat;
+}
+.Deal{
+  text-align: center ;
+  color: yellow;
+}
+.re{
+  text-align: center;
+}
+.dropd:Onhover{
+    color: #fff150;
+}
